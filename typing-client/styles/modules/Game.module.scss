@@ -1,0 +1,132 @@
+@use '../global/variables.scss' as *;
+
+.container {
+	height: 100vh;
+	width: 100vw;
+
+	padding: 3rem 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	font-size: 5rem;
+	height: 25%;
+
+	font-weight: bold;
+
+	width: 100%;
+
+	padding: 0 1rem;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+.content {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex: 1;
+}
+
+.content > * {
+	height: 100%;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	height: 15%;
+
+	font-size: 2rem;
+
+	display: flex;
+	justify-content: space-between;
+
+	align-items: center;
+
+	padding: 0 1rem;
+	color: black;
+}
+
+.restartBtn {
+	position: absolute;
+	right: 2rem;
+	top: 50%;
+	transform: translateY(50%);
+
+	font-size: 1rem;
+	text-decoration: none;
+	padding: 0.5rem;
+	color: white;
+	background-color: black;
+}
+.restartBtn:hover {
+	color: black;
+	background-color: white;
+	border: solid black 1px;
+}
+
+.leaderboard,
+.speeds {
+	width: 20%;
+
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.info {
+	width: 100%;
+
+	display: flex;
+	justify-content: flex-start;
+
+	padding: 0 1rem;
+	height: 1.5rem;
+
+	border-top: 2px solid black;
+}
+
+.info > *:nth-child(2) {
+	border-left: solid 2px black;
+}
+
+.typingArea {
+	width: 60%;
+
+	padding: 1rem;
+
+	border: 2px solid black;
+
+	& > * {
+		letter-spacing: 0.1rem;
+		display: inline;
+	}
+}
+
+.chosenWrong {
+	background-color: #ffcccb;
+}
+
+.wrong {
+	background-color: #ff6961;
+}
+
+.current {
+	background-color: black;
+	color: white;
+}
+
+.correct {
+	color: #77dd77;
+}
+
+.untouched {
+}
