@@ -1,5 +1,11 @@
 # actuated-1v1-typing
 
+### Demo Video
+
+[![Demo Video](assets/thumbnail.png)](https://youtu.be/JqVK_WTDmEQ)
+
+Click [here](https://youtu.be/JqVK_WTDmEQ) to watch the demo video.
+
 ### Description
 
 Actuated-1v1-typing is an IoT system that physicalizes competition. It is a two-player game where each player types the same workset at the same time; meanwhile there is a motorized slized potentiometer and vibration motor indicating the progress of the game, and how often each player makes mistakes. The player who finishes the workset first wins the game, which is denoted by the slide potentiometer at the end.
@@ -39,9 +45,3 @@ SKILLS: Typescript, React.js, REST, Design :)
 
 1. Vibration Motor
 2. Slide Potentiometer
-
-### Demo Video
-
-[![Demo Video](assets/thumbnail.png)](https://youtu.be/JqVK_WTDmEQ)
-
-Click [here](https://youtu.be/JqVK_WTDmEQ) to watch the demo video.
